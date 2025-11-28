@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>NG Deals</title>
-  <link rel="icon" type="image/png" href="NG DEALS.png">
+  <title>Gadget Mania</title>
+  <link rel="icon" type="image/png" href="GM.jpg">
   <style>
     /* === General Page Setup === */
     body {
@@ -194,12 +194,12 @@
 <body>
 
   <div class="logo-box">
-    <img src="NG DEALS.png" alt="Logo" class="logo">
+    <img src="GM.jpg" alt="Logo" class="logo">
     <div class="bottom-glow"></div>
     <div class="left-glow"></div>
   </div>
 
-  <h1>NG Deals</h1>
+  <h1>Gadget Mania</h1>
 
   <button onclick="openShop()">Open Shop</button>
 
@@ -208,17 +208,18 @@
       const userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
       if (/android/i.test(userAgent)) {
-        window.location.href = "intent://ngdeals.netlify.app/products.html/#Intent;scheme=https;package=com.android.chrome;end";
+        window.location.href = "intent://gadgetmania9.netlify.app/products.html/#Intent;scheme=https;package=com.android.chrome;end";
       } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-        window.location.href = "https://ngdeals.netlify.app/products.html";
+        window.location.href = "https://gadgetmania9.netlify.app/products.html";
       } else {
-        window.location.href = "https://ngdeals.netlify.app/products.html";
+        window.location.href = "https://gadgetmania9.netlify.app/products.html";
       }
     }
   </script>
 
 </body>
 </html>
+
 
 
 
